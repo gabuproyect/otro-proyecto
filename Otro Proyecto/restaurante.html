@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Arima:wght@100..700&family=Mr+Dafoe&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
+    <link rel="stylesheet" href="css/restaurante.css">
+</head>
+<body>
+    <header class="encabezado" id="inicio">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Restaurante <span class="amarillo">Es</span><span class="verde">par</span><span class="azul">ta</span></h2>
+                </div>
+                <nav class="navegacion oculto">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#nosotros">Sobre Nosotros</a>
+                    <a href="#menu">Menú</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                 <div class="icon-menu"><i class="bx bx-menu"></i></div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Bienvenidos</h2>
+                    <a href="#" class="btn bordes">|| Nuestro Menu</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="access/videoRestaurante.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros" id="nosotros">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienenidos a!</p>
+            <h1><span class="amarillo">Es</span><span class="verde">par</span><span class="azul">ta</span></h1>
+            <p>Ofrecemos las mejores comidas de la hermosa Isla de Margarita. Nuestro restaurante se enorgullece de servir platos auténticos elaborados con ingredientes frescos y locales.</p>
+            <p>Cada una de nuestras comidas es una experiencia única. Nuestro equipo de chefs apasionados está dedicado a brindar un servicio excepcional y a deleitar tu paladar con sabores únicos de la región</p>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagenes-contenedor">
+                <img src="img/imagen1.jpeg" alt="">
+                <img src="img/imagen2.jpeg" alt="">
+                <img src="img/imagen3.jpeg" alt="">
+                <img src="img/imagen4.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor" id="menu">
+        <h2 class="texto-platillos">Platillos Populares</h2>
+        <div class="botones-platillos">
+            <a href="#platillos" class="todos btn btn-verde">Todos</a>
+            <a href="#desayunos" class="ensaladas btn btn-verde">Desayunos</a>
+            <a href="#almuerzos" class="pizzas btn btn-verde">Almuerzos</a>
+            <a href="#cenas" class="postres btn btn-verde">Cenas</a>
+        </div>
+        <div class="platillos" id="platillos">
+            <div class="platillo">
+                <img src="img/arepadecazonconqueso (1).webp" alt="arepa">
+                <h2>Arepa de Cazón y Queso</h2>
+                <p>Esta arepa de maíz rellena con cazón desmenuzado y una generosa porción de queso</p>
+                <div class="precio">
+                    <p>$4.00</p>
+                </div>
+            </div>
+
+            <div class="platillo" id="desayunos">
+                <img src="img/arepapabellon (1).webp" alt="arepa">
+                <h2>Arepa de Pabellón Insular</h2>
+                <p>Arepa de maíz rellena con medregal, caraotas negras, platano frito y queso</p>
+                <div class="precio">
+                    <p>$3.20</p>
+                </div>
+            </div>
+
+            <div class="platillo">
+                <img src="img/empanadacazon.webp" alt="empanada">
+                <h2>Empanadas de raya</h2>
+                <p>Rellenas con mantaraya cebolla y pimiento, ofreciendo un sabor marino espectacular.</p>
+                <div class="precio">
+                    <p>$2.00</p>
+                </div>
+            </div>
+
+            <div class="platillo" id="almuerzos">
+                <img src="img/almuerzomargariteno.webp" alt="pabellón">
+                <h2>Pabellón Margariteño</h2>
+                <p>Hecho de carne de res desmechada, arroz, caraotas negras y platano frito, todo en un solo plato</p>
+                <div class="precio">
+                    <p>$6.00</p>
+                </div>
+            </div>
+
+            <div class="platillo">
+                <img src="img/Fosforera2.webp" alt="fosforera">
+                <h2>Fosforera</h2>
+                <p>Una mezcla de arroz, carne de res, pollo, mariscos y verduras, una combinación de sabores y texturas</p>
+                <div class="precio">
+                    <p>$5.00</p>
+                </div>
+            </div>
+
+            <div class="platillo">
+                <img src="img/Pastel-de-chucho.webp" alt="pastel de chucho">
+                <h2>Pastel de chucho</h2>
+                <p>Relleno de chucho (pez globo). Este delicioso pastel se hornea hasta dorarse, ofreciendo una textura suave.</p>
+                <div class="precio">
+                    <p>$6.00</p>
+                </div>
+            </div>
+
+            <div class="platillo" id="cenas">
+                <img src="img/pulporelleno.webp" alt="pulpo">
+                <h2>Pulpos y Mariscos</h2>
+                <p>Pulpo acompañado de camarones, mejillones, calamares y especias con hierbas</p>
+                <div class="precio">
+                    <p>$7.00</p>
+                </div>
+            </div>
+
+            <div class="platillo">
+                <img src="img/ensaladamoluscos.webp" alt="ensalada">
+                <h2>Ensalada de Moluscos</h2>
+                <p>Mejillones, almejas y pulpo, acompañados de cebolla, pimiento y un aderezo de limón y aceite de oliva</p>
+                <div class="precio">
+                    <p>$6.00</p>
+                </div>
+            </div>
+
+            <div class="platillo">
+                <img src="img/pizza2.webp" alt="pizza">
+                <h2>Pizza Caribeña</h2>
+                <p>Acompañada con ingredientes tipicos de la región, como piña, jamón, mariscos y pimientos.</p>
+                <div class="precio">
+                    <p>$5.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Comida margariteña para empezar el día</h2>
+            <p>Empieza tu día con un exquisito plato al estilo caribeño</p>
+            <a href="#" class="btn btn-verde">Ordenar ahora</a>
+        </div>
+    </div>
+
+    <div class="formulario-contacto" id="contacto">
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="bx bxs-location-plus"></i>Avenida el sol, Juangriego</p>
+            <p><i class="bx bxl-gmail"></i>JoséGonzales@gmail.com</p>
+            <p><i class="bx bxl-whatsapp"></i>+58 4148282708</p>
+            <div class="redes-sociales">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+            </div>
+        </div>
+
+        <form action="" class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Joe">
+            </div>
+
+            <div class="input-formulario">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Guzmán">
+            </div>
+
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="text" id="correo" placeholder="Jose@gmail.com">
+            </div>
+
+            <div class="input-formulario">
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" placeholder="+58 4248282809">
+            </div>  
+            
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="" id="mensaje"></textarea>
+            </div>
+
+            <div class="input-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+    <div class="pie-pagina">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Juangriego Estado Nueva Esparta</p>
+            </div>
+
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Viernes y Sabados 7am - 11pm</p>
+            </div>
+
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+            </div>
+
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>Suscribete para recibir mas Noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde"     value="Suscribirse">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2024 Restaurante Esparta, Desarrollado por Gabriel</p>
+    </footer>
+
+    <script src="js/restaurante.js"></script>
+</body>
+</html>
